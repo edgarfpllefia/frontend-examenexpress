@@ -38,9 +38,9 @@ export default async function HomePage() {
         </p>
         <ul className="flex flex-col gap-3">
           {varietats.map((b) => (
-            <li key={b.id}>
+            <li key={b._id}>
               <Link
-                href={`/mascotas/${b.id}`}
+                href={`/mascotas/${b._id}`}
                 className="group flex items-center justify-between bg-white hover:bg-blue-50 border border-gray-200 hover:border-blue-300 rounded-xl px-6 py-4 transition"
               >
                 <div>

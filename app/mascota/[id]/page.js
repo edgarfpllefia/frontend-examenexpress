@@ -46,7 +46,7 @@ export default async function DetallPage({ params }) {
             <span className="text-xs text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
               {mascota.raza}
             </span>
-            <img src={mascota.tipo} alt={mascota.tipo}></img>
+            <img src={mascota.foto} alt={mascota.foto}></img>
           </div>
 
           <hr className="border-gray-100 mb-6" />
